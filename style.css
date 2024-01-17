@@ -1,0 +1,36 @@
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#next {
+    position: relative;
+    top: -350px;
+    left: 8px;
+}
+
+#hold {
+    position: relative;
+    top: -350px;
+    left: -8px;
+}
+
+#score-container {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 2rem;
+}
+
+#highscore-container {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    font-size: 2rem;
+}
